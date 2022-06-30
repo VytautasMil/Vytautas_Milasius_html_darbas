@@ -1,5 +1,25 @@
+/* common */
+
+
+/* ===header================= */
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
+    width: 364px;
+    height: 36px;
+}
+.logo {
+    display: inline-block;
+    width: 198px;
+    height: 36px;
+    max-width: none;
+}
+.main-nav__item {
+    display: none;
+}
+.main-nav__burger{
+    margin-right: 0px;
+    
 }
