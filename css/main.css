@@ -263,10 +263,23 @@ h2 {
 }
 .footer-left {
     display: flex;
+    align-items: center;
 }
 .container {
     width: 1280px;
     margin-left: 100px;
     margin-bottom: 100px;
+}
+.footer-left p {
+    display: inline-block;
+}
+.footer-bottom p{
+    display: initial;
+}
+.footer-bottom  {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 32px;
 }
 }
