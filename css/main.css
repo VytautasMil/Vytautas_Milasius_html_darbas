@@ -91,3 +91,41 @@ button {
     line-height: 150%;
     color: #555555;
 }
+.nft__ad {
+    padding: 7rem 2rem 1rem 2rem;
+    background-image: url(../img/background.svg);
+    background-position: 85% 0%;
+    position: absolute;
+    width: 428px;
+    height: 326px;
+    left: 0px;
+    top: 638px;
+}
+h2 {
+    width: 364px;
+    height: 96px;
+    left: 32px;
+    top: 760px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    color: #111111;
+    margin-bottom: 16px;
+}
+.nft__adtext {
+    width: 364px;
+height: 60px;
+left: 32px;
+top: 872px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #111111;
+}
