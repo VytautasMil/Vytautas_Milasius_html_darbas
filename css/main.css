@@ -1,7 +1,7 @@
 /* common */
 .container {
     background-color: #FFFFFF;
-    /* width: 364px; */
+
     
 }
 button {
@@ -95,7 +95,7 @@ button {
     padding: 7rem 2rem 1rem 2rem;
     background-image: url(../img/background.svg);
     background-position: 85% 0%;
-    position: absolute;
+    /* position: absolute; */
     width: 428px;
     height: 326px;
     left: 0px;
@@ -115,17 +115,54 @@ h2 {
     align-items: flex-end;
     color: #111111;
     margin-bottom: 16px;
+    margin-left: 32px;
 }
 .nft__adtext {
     width: 364px;
-height: 60px;
-left: 32px;
-top: 872px;
+    height: 60px;
+    left: 32px;
+    top: 872px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #111111;
+}
+.section_companies {
+    margin-top: 96px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.none {
+    display: none;
+}
+.boomerang {
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-color: #111111;
+}
+.nft_list {
+    margin-top: 56px;
+    
+}
+.text_list{
+    width: 364px;
+    height: 90px;
+    left: 32px;
+    top: 1313px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+.cards {
+    display: flex;
+    overflow: hidden;
 }
