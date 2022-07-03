@@ -1,5 +1,21 @@
 /* common */
-
+.container {
+    background-color: #FFFFFF;
+    /* width: 364px; */
+    
+}
+button {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    border: 3px solid transparent;
+    padding: 1.38rem 3.5rem;
+    border-radius: 60px;
+    margin-top: 41px;
+    background-image: linear-gradient(67deg, #eb0c0cab, #ef8f00);
+    background-origin: border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+      }
 
 /* ===header================= */
 .header .container {
@@ -7,19 +23,71 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    width: 364px;
+    background-color: #FFFFFF;
     height: 36px;
+    
 }
 .logo {
     display: inline-block;
     width: 198px;
     height: 36px;
     max-width: none;
+    background-color: #FFFFFF;
 }
 .main-nav__item {
     display: none;
 }
 .main-nav__burger{
-    margin-right: 0px;
+    margin-right: 2px;
+    padding-right: 2px;
     
+    
+}
+.section_hero {
+    display: flex;
+    background-color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    
+}
+.nft__subtitle {
+    text-transform: uppercase;    
+    color: #FF3998;    
+    width: 172px;
+    height: 19px;
+    left: 32px;
+    top: 148px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    }
+.nft__title {
+    color: #111111;
+    left: 32px;
+    top: 191px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    
+}
+.nft__text  {
+   
+    width: 274px;
+    height: 120px;
+    left: 32px;
+    top: 331px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
 }
