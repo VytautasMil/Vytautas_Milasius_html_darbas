@@ -1,9 +1,11 @@
 /* common */
 .container {
     background-color: #FFFFFF;
-
     
 }
+ul {
+    list-style-type: none;
+   }
 button {
     color: black;
     font-weight: 600;
@@ -165,4 +167,38 @@ h2 {
 .cards {
     display: flex;
     overflow: hidden;
+}
+.footer .logo{
+    
+}
+.footer {
+    margin-left: 32px;
+}
+.footer p{
+    margin-top: 20px;
+}
+.footer-text {
+    display: inline-flexbox;
+}
+.footer-launch {
+    display: none;
+}
+.socials {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-nft {
+    display: flex;
+    width: auto;
+    margin-top: 36px;
+}
+.about-nft h4 {
+    margin-left: 32px;
+}
+.contact-social {
+    display: flex;
+    width: auto;
+}
+.contact-social h4 {
+    margin-left: 32px;
 }
